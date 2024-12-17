@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { Button } from '@/components/ui/button'
 
 const wishes = [
+  "Sorry I was busy thats why I didn't created Troll version enjoy the original one",
   "May your life be a beautiful journey of love and discovery!",
   "Welcoming you to a world of endless possibilities!",
   "Every moment is a gift, and you are a precious treasure!",
@@ -141,7 +142,7 @@ export default function WelcomeWishComponent() {
         )}
 
         {isPlaying }
-        <audio ref={audioRef} src="/song/nasheed.mp3" loop />
+        <audio ref={audioRef} src="/song/nasheed2.mp3" loop />
       </div>
 
     
